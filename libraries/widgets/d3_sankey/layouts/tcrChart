@@ -119,11 +119,4 @@ node.append("text")
         link.attr("d", path);
   }
 })();
-
-d3.selectAll('#{{ chartId }} svg .node rect')
-    .style('stroke', 'none')
-    .style('fill', function(d){
-      return('#666666')
-    })
-
 </script>
